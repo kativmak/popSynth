@@ -1,0 +1,197 @@
+CMPLR	Makefile	/^CMPLR = gfortran$/;"	m
+FFLAGS	Makefile	/^FFLAGS = $/;"	m
+LFLAGS	Makefile	/^LFLAGS = const_bse.h zdata.h $/;"	m
+SRCE1	Makefile	/^SRCE1 = \\$/;"	m
+OBJT1	Makefile	/^OBJT1 = $(SRCE1:.f=.o)$/;"	m
+iy	const_bse.h	/^      INTEGER idum2,iy,ir(32)$/;"	v
+idum2	const_bse.h	/^      COMMON \/RAND3\/ idum2,iy,ir$/;"	v
+iy	const_bse.h	/^      COMMON \/RAND3\/ idum2,iy,ir$/;"	v
+ceflag	const_bse.h	/^      INTEGER ceflag,tflag,ifflag,nsflag,wdflag$/;"	v
+tflag	const_bse.h	/^      INTEGER ceflag,tflag,ifflag,nsflag,wdflag$/;"	v
+ifflag	const_bse.h	/^      INTEGER ceflag,tflag,ifflag,nsflag,wdflag$/;"	v
+nsflag	const_bse.h	/^      INTEGER ceflag,tflag,ifflag,nsflag,wdflag$/;"	v
+ceflag	const_bse.h	/^      COMMON \/FLAGS\/ ceflag,tflag,ifflag,nsflag,wdflag$/;"	v
+tflag	const_bse.h	/^      COMMON \/FLAGS\/ ceflag,tflag,ifflag,nsflag,wdflag$/;"	v
+ifflag	const_bse.h	/^      COMMON \/FLAGS\/ ceflag,tflag,ifflag,nsflag,wdflag$/;"	v
+nsflag	const_bse.h	/^      COMMON \/FLAGS\/ ceflag,tflag,ifflag,nsflag,wdflag$/;"	v
+neta	const_bse.h	/^      REAL*8 neta,bwind,hewind,mxns,alpha1,lambda$/;"	v
+bwind	const_bse.h	/^      REAL*8 neta,bwind,hewind,mxns,alpha1,lambda$/;"	v
+hewind	const_bse.h	/^      REAL*8 neta,bwind,hewind,mxns,alpha1,lambda$/;"	v
+mxns	const_bse.h	/^      REAL*8 neta,bwind,hewind,mxns,alpha1,lambda$/;"	v
+alpha1	const_bse.h	/^      REAL*8 neta,bwind,hewind,mxns,alpha1,lambda$/;"	v
+sigma	const_bse.h	/^      REAL*8 sigma,beta,xi,acc2,epsnov,eddfac,gamma$/;"	v
+beta	const_bse.h	/^      REAL*8 sigma,beta,xi,acc2,epsnov,eddfac,gamma$/;"	v
+xi	const_bse.h	/^      REAL*8 sigma,beta,xi,acc2,epsnov,eddfac,gamma$/;"	v
+acc2	const_bse.h	/^      REAL*8 sigma,beta,xi,acc2,epsnov,eddfac,gamma$/;"	v
+epsnov	const_bse.h	/^      REAL*8 sigma,beta,xi,acc2,epsnov,eddfac,gamma$/;"	v
+eddfac	const_bse.h	/^      REAL*8 sigma,beta,xi,acc2,epsnov,eddfac,gamma$/;"	v
+neta	const_bse.h	/^      COMMON \/VALUE1\/ neta,bwind,hewind,mxns$/;"	v
+bwind	const_bse.h	/^      COMMON \/VALUE1\/ neta,bwind,hewind,mxns$/;"	v
+hewind	const_bse.h	/^      COMMON \/VALUE1\/ neta,bwind,hewind,mxns$/;"	v
+alpha1	const_bse.h	/^      COMMON \/VALUE2\/ alpha1,lambda$/;"	v
+sigma	const_bse.h	/^      COMMON \/VALUE4\/ sigma,bhflag$/;"	v
+beta	const_bse.h	/^      COMMON \/VALUE5\/ beta,xi,acc2,epsnov,eddfac,gamma$/;"	v
+xi	const_bse.h	/^      COMMON \/VALUE5\/ beta,xi,acc2,epsnov,eddfac,gamma$/;"	v
+acc2	const_bse.h	/^      COMMON \/VALUE5\/ beta,xi,acc2,epsnov,eddfac,gamma$/;"	v
+epsnov	const_bse.h	/^      COMMON \/VALUE5\/ beta,xi,acc2,epsnov,eddfac,gamma$/;"	v
+eddfac	const_bse.h	/^      COMMON \/VALUE5\/ beta,xi,acc2,epsnov,eddfac,gamma$/;"	v
+pts1	const_bse.h	/^      REAL*8 pts1,pts2,pts3$/;"	v
+pts2	const_bse.h	/^      REAL*8 pts1,pts2,pts3$/;"	v
+pts1	const_bse.h	/^      COMMON \/POINTS\/ pts1,pts2,pts3$/;"	v
+pts2	const_bse.h	/^      COMMON \/POINTS\/ pts1,pts2,pts3$/;"	v
+dmmax	const_bse.h	/^      REAL*8 dmmax,drmax$/;"	v
+dmmax	const_bse.h	/^      COMMON \/TSTEPC\/ dmmax,drmax$/;"	v
+scm	const_bse.h	/^      COMMON \/SINGLE\/ scm,spp$/;"	v
+bcm	const_bse.h	/^      COMMON \/BINARY\/ bcm,bpp$/;"	v
+sse	sse.f	/^      PROGRAM sse$/;"	p
+kw	sse.f	/^      integer kw,/;"	v	program:sse
+j	sse.f	/^      integer kw,j,/;"	v	program:sse
+k	sse.f	/^      integer kw/;"	v	program:sse
+mass	sse.f	/^      real*8 mass,/;"	v	program:sse
+mt	sse.f	/^      real*8 mass,mt,/;"	v	program:sse
+z	sse.f	/^      real*8 mass,mt,z,/;"	v	program:sse
+zpars	sse.f	/^      real*8 mass,mt,z,zpars(/;"	v	program:sse
+epoch	sse.f	/^      real*8 epoch,/;"	v	program:sse
+tms	sse.f	/^      real*8 epoch,tms,/;"	v	program:sse
+tphys	sse.f	/^      real*8 epoch,tms,tphys,/;"	v	program:sse
+tphysf	sse.f	/^      real*8 epoch,tms,tphys,tphysf,/;"	v	program:sse
+dtp	sse.f	/^      real*8 epoch,tms,tphys,tphysf,dtp$/;"	v	program:sse
+r	sse.f	/^      re/;"	v	program:sse
+lum	sse.f	/^      real*8 r,lum,/;"	v	program:sse
+ospin	sse.f	/^      real*8 r,lum,ospin$/;"	v	program:sse
+mc	sse.f	/^      real*8 mc,/;"	v	program:sse
+rc	sse.f	/^      real*8 mc,rc,/;"	v	program:sse
+menv	sse.f	/^      real*8 mc,rc,menv,/;"	v	program:sse
+renv	sse.f	/^      real*8 mc,rc,menv,renv$/;"	v	program:sse
+text1	sse.f	/^      character*50 text1,/;"	v	program:sse
+text2	sse.f	/^      character*50 text1,text2,/;"	v	program:sse
+text3	sse.f	/^      character*50 text1,text2,text3$/;"	v	program:sse
+label	sse.f	/^      character*30 label(/;"	v	program:sse
+30	sse.f	/^ 30   j = j + 1$/;"	l	program:sse	file:
+99	sse.f	/^ 99   FORMAT(8f10.4,1p,e12.4,0p,f12.4,1p,e12.4)$/;"	l	program:sse	file:
+50	sse.f	/^ 50   j = j + 1$/;"	l	program:sse	file:
+60	sse.f	/^ 60   continue$/;"	l	program:sse	file:
+100	sse.f	/^ 100  format(a30,' Time ',f10.1,' Mass ',f7.3)$/;"	l	program:sse	file:
+deltat	deltat.f	/^      SUBROUTINE deltat(/;"	s
+POINTS	deltat.f	9;"	c	subroutine:deltat
+evolv1	evolv1.f	/^      SUBROUTINE evolv1(/;"	s
+VALUE1	evolv1.f	59;"	c	subroutine:evolv1
+POINTS	evolv1.f	61;"	c	subroutine:evolv1
+SINGLE	evolv1.f	63;"	c	subroutine:evolv1
+20	evolv1.f	/^ 20         dr = r - rm0$/;"	l	subroutine:evolv1	file:
+30	evolv1.f	/^ 30         continue$/;"	l	subroutine:evolv1	file:
+35	evolv1.f	/^ 35            continue$/;"	l	subroutine:evolv1	file:
+40	evolv1.f	/^ 40      aj = ajhold + dtm$/;"	l	subroutine:evolv1	file:
+50	evolv1.f	/^ 50      continue$/;"	l	subroutine:evolv1	file:
+10	evolv1.f	/^ 10   continue$/;"	l	subroutine:evolv1	file:
+90	evolv1.f	/^ 90   continue$/;"	l	subroutine:evolv1	file:
+hrdiag	hrdiag.f	/^      SUBROUTINE hrdiag(/;"	s
+FLAGS	hrdiag.f	26;"	c	subroutine:hrdiag
+VALUE1	hrdiag.f	34;"	c	subroutine:hrdiag
+90	hrdiag.f	/^ 90   continue$/;"	l	subroutine:hrdiag	file:
+kick	kick.f	/^      SUBROUTINE kick(/;"	s
+VALUE3	kick.f	7;"	c	subroutine:kick
+RAND3	kick.f	9;"	c	subroutine:kick
+VALUE4	kick.f	20;"	c	subroutine:kick
+2	kick.f	/^ 2       dif = em - ecc*SIN(em) - mm$/;"	l	subroutine:kick	file:
+3	kick.f	/^ 3       continue$/;"	l	subroutine:kick	file:
+20	kick.f	/^ 20   continue$/;"	l	subroutine:kick	file:
+90	kick.f	/^ 90   continue$/;"	l	subroutine:kick	file:
+95	kick.f	/^ 95   continue$/;"	l	subroutine:kick	file:
+mlwind	mlwind.f	/^      real*8 FUNCTION mlwind(/;"	f
+value1	mlwind.f	8;"	c	function:mlwind
+mrenv	mrenv.f	/^      SUBROUTINE mrenv(/;"	s
+ran3	ran3.f	/^      REAL FUNCTION ran3(/;"	f
+RAND3	ran3.f	12;"	c	function:ran3
+11	ran3.f	/^ 11      continue$/;"	l	function:ran3	file:
+star	star.f	/^      SUBROUTINE star(/;"	s
+90	star.f	/^ 90   continue$/;"	l	subroutine:star	file:
+95	star.f	/^ 95   continue$/;"	l	subroutine:star	file:
+96	star.f	/^ 96   continue$/;"	l	subroutine:star	file:
+100	star.f	/^ 100  continue$/;"	l	subroutine:star	file:
+zcnsts	zcnsts.f	/^      SUBROUTINE zcnsts(/;"	s
+MSCFF	zcnsts.f	17;"	c	subroutine:zcnsts
+GBCFF	zcnsts.f	18;"	c	subroutine:zcnsts
+lzamsf	zfuncs.f	/^      real*8 FUNCTION lzamsf(/;"	f
+MSCFF	zfuncs.f	5;"	c	function:lzamsf
+rzamsf	zfuncs.f	/^      real*8 FUNCTION rzamsf(/;"	f
+MSCFF	zfuncs.f	21;"	c	function:rzamsf
+tbgbf	zfuncs.f	/^      real*8 FUNCTION tbgbf(/;"	f
+MSCFF	zfuncs.f	38;"	c	function:tbgbf
+tbgbdf	zfuncs.f	/^      real*8 FUNCTION tbgbdf(/;"	f
+MSCFF	zfuncs.f	53;"	c	function:tbgbdf
+tbgdzf	zfuncs.f	/^      real*8 FUNCTION tbgdzf(/;"	f
+MSCFF	zfuncs.f	72;"	c	function:tbgdzf
+thookf	zfuncs.f	/^      real*8 FUNCTION thookf(/;"	f
+MSCFF	zfuncs.f	91;"	c	function:thookf
+ltmsf	zfuncs.f	/^      real*8 FUNCTION ltmsf(/;"	f
+MSCFF	zfuncs.f	108;"	c	function:ltmsf
+lalphf	zfuncs.f	/^      real*8 FUNCTION lalphf(/;"	f
+MSCFF	zfuncs.f	122;"	c	function:lalphf
+lbetaf	zfuncs.f	/^      real*8 FUNCTION lbetaf(/;"	f
+MSCFF	zfuncs.f	150;"	c	function:lbetaf
+lnetaf	zfuncs.f	/^      real*8 FUNCTION lnetaf(/;"	f
+MSCFF	zfuncs.f	169;"	c	function:lnetaf
+lhookf	zfuncs.f	/^      real*8 FUNCTION lhookf(/;"	f
+MSCFF	zfuncs.f	189;"	c	function:lhookf
+rtmsf	zfuncs.f	/^      real*8 FUNCTION rtmsf(/;"	f
+MSCFF	zfuncs.f	211;"	c	function:rtmsf
+ralphf	zfuncs.f	/^      real*8 FUNCTION ralphf(/;"	f
+MSCFF	zfuncs.f	237;"	c	function:ralphf
+rbetaf	zfuncs.f	/^      real*8 FUNCTION rbetaf(/;"	f
+MSCFF	zfuncs.f	263;"	c	function:rbetaf
+rgammf	zfuncs.f	/^      real*8 FUNCTION rgammf(/;"	f
+MSCFF	zfuncs.f	291;"	c	function:rgammf
+rhookf	zfuncs.f	/^      real*8 FUNCTION rhookf(/;"	f
+MSCFF	zfuncs.f	318;"	c	function:rhookf
+lbgbf	zfuncs.f	/^      real*8 FUNCTION lbgbf(/;"	f
+GBCFF	zfuncs.f	344;"	c	function:lbgbf
+lbgbdf	zfuncs.f	/^      real*8 FUNCTION lbgbdf(/;"	f
+GBCFF	zfuncs.f	360;"	c	function:lbgbdf
+lbagbf	zfuncs.f	/^      real*8 FUNCTION lbagbf(/;"	f
+GBCFF	zfuncs.f	379;"	c	function:lbagbf
+rgbf	zfuncs.f	/^      real*8 FUNCTION rgbf(/;"	f
+GBCFF	zfuncs.f	399;"	c	function:rgbf
+rgbdf	zfuncs.f	/^      real*8 FUNCTION rgbdf(/;"	f
+GBCFF	zfuncs.f	413;"	c	function:rgbdf
+ragbf	zfuncs.f	/^      real*8 FUNCTION ragbf(/;"	f
+GBCFF	zfuncs.f	428;"	c	function:ragbf
+ragbdf	zfuncs.f	/^      real*8 FUNCTION ragbdf(/;"	f
+GBCFF	zfuncs.f	458;"	c	function:ragbdf
+mctmsf	zfuncs.f	/^      real*8 FUNCTION mctmsf(/;"	f
+mcheif	zfuncs.f	/^      real*8 FUNCTION mcheif(/;"	f
+GBCFF	zfuncs.f	503;"	c	function:mcheif
+mheif	zfuncs.f	/^      real*8 FUNCTION mheif(/;"	f
+GBCFF	zfuncs.f	520;"	c	function:mheif
+mcagbf	zfuncs.f	/^      real*8 FUNCTION mcagbf(/;"	f
+GBCFF	zfuncs.f	539;"	c	function:mcagbf
+mbagbf	zfuncs.f	/^      real*8 FUNCTION mbagbf(/;"	f
+GBCFF	zfuncs.f	551;"	c	function:mbagbf
+mcgbtf	zfuncs.f	/^      real*8 FUNCTION mcgbtf(/;"	f
+lgbtf	zfuncs.f	/^      real*8 FUNCTION lgbtf(/;"	f
+mcgbf	zfuncs.f	/^      real*8 FUNCTION mcgbf(/;"	f
+lmcgbf	zfuncs.f	/^      real*8 FUNCTION lmcgbf(/;"	f
+lHeIf	zfuncs.f	/^      real*8 FUNCTION lHeIf(/;"	f
+GBCFF	zfuncs.f	632;"	c	function:lHeIf
+lHef	zfuncs.f	/^      real*8 FUNCTION lHef(/;"	f
+GBCFF	zfuncs.f	650;"	c	function:lHef
+rminf	zfuncs.f	/^      real*8 FUNCTION rminf(/;"	f
+GBCFF	zfuncs.f	664;"	c	function:rminf
+tHef	zfuncs.f	/^      real*8 FUNCTION tHef(/;"	f
+GBCFF	zfuncs.f	678;"	c	function:tHef
+tblf	zfuncs.f	/^      real*8 FUNCTION tblf(/;"	f
+GBCFF	zfuncs.f	703;"	c	function:tblf
+lzahbf	zfuncs.f	/^      real*8 FUNCTION lzahbf(/;"	f
+GBCFF	zfuncs.f	730;"	c	function:lzahbf
+rzahbf	zfuncs.f	/^      real*8 FUNCTION rzahbf(/;"	f
+GBCFF	zfuncs.f	751;"	c	function:rzahbf
+lzhef	zfuncs.f	/^      real*8 FUNCTION lzhef(/;"	f
+rzhef	zfuncs.f	/^      real*8 FUNCTION rzhef(/;"	f
+themsf	zfuncs.f	/^      real*8 FUNCTION themsf(/;"	f
+rhehgf	zfuncs.f	/^      real*8 FUNCTION rhehgf(/;"	f
+rhegbf	zfuncs.f	/^      real*8 FUNCTION rhegbf(/;"	f
+lpertf	zfuncs.f	/^      real*8 FUNCTION lpertf(/;"	f
+rpertf	zfuncs.f	/^      real*8 FUNCTION rpertf(/;"	f
+vrotf	zfuncs.f	/^      real*8 FUNCTION vrotf(/;"	f
+celamf	zfuncs.f	/^      real*8 FUNCTION celamf(/;"	f
+90	zfuncs.f	/^ 90      continue$/;"	l	function:celamf	file:
